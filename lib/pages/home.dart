@@ -45,6 +45,11 @@ class _HomeState extends State<Home> {
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
         ),
+
+        /**
+         * FITUR INI BERISI LAYANAN KONSELING
+         * 
+         */
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
@@ -79,6 +84,11 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
+
+            /**
+         * FITUR INI BERISI DAFTAR GURU BK
+         * 
+         */
             InkWell(
               onTap: () {
                 Navigator.push(

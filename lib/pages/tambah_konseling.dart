@@ -111,6 +111,12 @@ class _TambahKonselingState extends State<TambahKonseling> {
           ),
         ],
       ),
+
+      /**
+         * FITUR INI BERFUNGSI MENAMBAHKAN DATA KONSELING SISWA
+         * 
+         */
+
       bottomNavigationBar: Container(
         padding: EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 15),
         child: ElevatedButton(

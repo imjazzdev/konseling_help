@@ -234,6 +234,13 @@ class _KonselerDetailState extends State<KonselerDetail> {
               : SizedBox()
         ],
       ),
+
+      /**
+         * FITUR INI BERFUNGSI MEMBERI 
+         * TANGGAPAN KONSELING GURU TERHADAP SISWA
+         * 
+         */
+
       bottomNavigationBar: tanggapanDone == true
           ? SizedBox()
           : Container(
